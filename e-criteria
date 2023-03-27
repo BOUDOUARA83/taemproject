@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title> Work ready</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/dcode.css">
+    <link rel="shortcut icon" href="/assests/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/Checkbox.css ">
+
+</head>
+
+<body>
+    <label class="checkbox" for="myCheckboxId">
+        <input class="checkbox__input"  type="checkbox" name="myCheckboxName" id= "myCheckboxId">
+        <div class="checkbox__box"></div>
+            Aged between 18 - 66?
+        
+    </label>
+
+
+
+    <label class="checkbox" for="myCheckboxId">
+        <input class="checkbox__input"  type="checkbox" name="myCheckboxName" id= "myCheckboxId">
+        <div class="checkbox__box"></div>
+            Ready to work?
+       
+    </label>
+
+
+    <label class="checkbox" for="myCheckboxId">
+        <input class="checkbox__input"  type="checkbox" name="myCheckboxName" id= "myCheckboxId">
+        <div class="checkbox__box"></div>
+            Ready to work?
+       
+    </label>
+
+
+    <label class="checkbox" for="myCheckboxId">
+        <input class="checkbox__input"  type="checkbox" name="myCheckboxName" id= "myCheckboxId">
+        <div class="checkbox__box"></div>
+            Ready to work 8+ hours a week?
+        
+    </label>
+
+    <label class="checkbox" for="myCheckboxId">
+        <input  class="checkbox__input"  type="checkbox" name="myCheckboxName" id= "myCheckboxId">
+        <div class="checkbox__box"></div>
+            Available for meetings?
+        
+
+
+    <button class="open-button" onclick="openForm()">Learn More</button>
+    </label>
+
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+</body>
